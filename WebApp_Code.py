@@ -9,7 +9,6 @@ movie_list = movies['title'].values
 similarity = pickle.load(open('similarity.pkl', 'rb'))
 
 ## Step 3 - Set the Title and Header of Web page and a SelectBox for Movie Input ##
-st.title("Summer Training Project - SP'2022")
 st.header('Content-Based Movie Recommendation')
 selected_movie = st.selectbox("Select a movie you have watched : ",movie_list)
 
